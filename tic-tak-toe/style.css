@@ -1,0 +1,79 @@
+@font-face {
+    font-family: new;
+    src: url(./NeueHaasDisplayBlack.ttf);
+  }
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: new;
+}
+
+body{
+    /* background-color: rgb(243, 43, 43); */
+  background: linear-gradient(#bc503bdd, #3e52d7ef);
+    text-align: center;
+}
+h1{
+    font-size: 5vw;
+}
+.container{
+    height: 79vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgb(0,0,0,0.3);
+    font-size: 5vw;
+    font-weight: 700;
+    color: rgb(142, 77, 77);
+    background-color: white;
+}
+#reset-btn{
+    padding: 1rem;
+    background-color: rgb(32, 15, 15);
+    font-size: 1.2rem;
+    color: white;
+    border-radius: 1rem;
+    border: none;
+}
+
+#new-btn{
+    padding: 1rem;
+    background-color: brown;
+    font-size: 1.2rem;
+    color: white;
+    border-radius: 1rem;
+    border: none;
+}
+#msg{
+    font-size: 10vmin;
+}
+.msg-container{
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3vw;
+}
+.hide{
+    display: none;
+}
+
